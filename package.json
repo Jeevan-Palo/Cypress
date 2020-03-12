@@ -8,6 +8,7 @@
     "ci:serve": "ng build --prod && http-server dist -p 4200",
     "cypress:run": "cypress run --reporter teamcity",
     "cypress:ci": "start-server-and-test ci:serve http://localhost:4200 cypress:run",
+    "test": "./node_modules/.bin/cypress run",
   },
   "author": "Jeevan Radhakrishnan",
   "license": "ISC",
