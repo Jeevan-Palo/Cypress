@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:run": "cypress run",
-    "test": "npx cypress run",
+   "test": "cypress run"
   },
   "author": "Jeevan Radhakrishnan",
   "license": "ISC",
